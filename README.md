@@ -2,7 +2,7 @@
 Proyecto base para realizar consultas utilizando hechos y reglas mediante el compilador *swipl*. Es necesario descargar previamente [**Swi-Prolog**](https://www.swi-prolog.org/download/stable).
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/AgustinDuelli/Datalog_DB/assets/130614935/f1e0d333-7842-4026-ad2f-fa66090397bc](http://www.swi-prolog.org/)" />
+  <img src="https://www.swi-prolog.org/icons/swipl.png" />
 </p>
 
 ## Inicialización de consola
