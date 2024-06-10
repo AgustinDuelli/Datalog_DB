@@ -1,15 +1,15 @@
 % Cargar archivos de hechos
-:- [consejo_revisor].
-:- [departamento].
-:- [empresa].
-:- [historial_academico].
-:- [historial_proyecto].
-:- [informe_avance_palabra_clave].
-:- [informe_avance].
-:- [investigador].
-:- [palabra_clave].
-:- [patrocinio].
-:- [proyecto].
+:- [hechos/consejo_revisor].
+:- [hechos/departamento].
+:- [hechos/empresa].
+:- [hechos/historial_academico].
+:- [hechos/historial_proyecto].
+:- [hechos/informe_avance_palabra_clave].
+:- [hechos/informe_avance].
+:- [hechos/investigador].
+:- [hechos/palabra_clave].
+:- [hechos/patrocinio].
+:- [hechos/proyecto].
 
 % Cargar reglas
 :- [reglas].
