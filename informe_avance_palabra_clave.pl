@@ -1,0 +1,46 @@
+% informe_avance_palabra_clave(nombre_proyecto, id_informe, palabra_clave)
+informe_avance_palabra_clave('Proyecto Fisica 1', 1, 'Dinamica').
+informe_avance_palabra_clave('Proyecto Fisica 2', 2, 'Mecanica').
+informe_avance_palabra_clave('Proyecto Matematica 1', 3, 'algebra').
+informe_avance_palabra_clave('Proyecto Matematica 1', 3, 'Geometria').
+informe_avance_palabra_clave('Proyecto Matematica 2', 4, 'Calculo').
+informe_avance_palabra_clave('Proyecto Quimica 1', 5, 'Organica').
+informe_avance_palabra_clave('Proyecto Quimica 1', 5, 'Inorganica').
+informe_avance_palabra_clave('Proyecto Quimica 2', 6, 'Quimica').
+informe_avance_palabra_clave('Proyecto Computacion 1', 7, 'Algoritmos').
+informe_avance_palabra_clave('Proyecto Computacion 1', 7, 'Complejidad').
+informe_avance_palabra_clave('Proyecto Computacion 2', 8, 'Programacion').
+informe_avance_palabra_clave('Proyecto Biologia 1', 9, 'Genética').
+informe_avance_palabra_clave('Proyecto Biologia 1', 9, 'Evolucion').
+informe_avance_palabra_clave('Proyecto Biologia 2', 10, 'Evolucion').
+informe_avance_palabra_clave('Proyecto Biologia 2', 10, 'Ecologia').
+informe_avance_palabra_clave('Proyecto Filosofia 1', 11, 'Ética').
+informe_avance_palabra_clave('Proyecto Filosofia 1', 11, 'Estética').
+informe_avance_palabra_clave('Proyecto Filosofia 1', 11, 'Logica').
+informe_avance_palabra_clave('Proyecto Filosofia 2', 12, 'Ética').
+informe_avance_palabra_clave('Proyecto Filosofia 2', 12, 'Estética').
+informe_avance_palabra_clave('Proyecto Filosofia 2', 12, 'Logica').
+informe_avance_palabra_clave('Proyecto Historia 1', 13, 'Antigua').
+informe_avance_palabra_clave('Proyecto Historia 1', 13, 'Moderna').
+informe_avance_palabra_clave('Proyecto Historia 2', 14, 'Contemporanea').
+informe_avance_palabra_clave('Proyecto Economia 1', 15, 'Microeconomia').
+informe_avance_palabra_clave('Proyecto Economia 1', 15, 'Macroeconomia').
+informe_avance_palabra_clave('Proyecto Economia 2', 16, 'Finanzas').
+informe_avance_palabra_clave('Proyecto Medicina 1', 17, 'Anatomia').
+informe_avance_palabra_clave('Proyecto Medicina 1', 17, 'Fisiologia').
+informe_avance_palabra_clave('Proyecto Medicina 2', 18, 'Fisiologia').
+informe_avance_palabra_clave('Proyecto Medicina 2', 18, 'Patologia').
+informe_avance_palabra_clave('Proyecto Astronomia 1', 19, 'Astrofisica').
+informe_avance_palabra_clave('Proyecto Astronomia 2', 20, 'Cosmologia').
+informe_avance_palabra_clave('Proyecto Astronomia 2', 20, 'Astrometria').
+informe_avance_palabra_clave('Proyecto Geografia 1', 21, 'Politica').
+informe_avance_palabra_clave('Proyecto Geografia 2', 22, 'Fisica').
+informe_avance_palabra_clave('Proyecto Geografia 2', 22, 'Humana').
+informe_avance_palabra_clave('Proyecto Psicologia 1', 23, 'Cognitiva').
+informe_avance_palabra_clave('Proyecto Psicologia 1', 23, 'Clinica').
+informe_avance_palabra_clave('Proyecto Psicologia 2', 24, 'Cognitiva').
+informe_avance_palabra_clave('Proyecto Sociologia 1', 25, 'Educacion').
+informe_avance_palabra_clave('Proyecto Sociologia 2', 26, 'Desigualdad').
+informe_avance_palabra_clave('Proyecto Sociologia 2', 26, 'Educacion').
+informe_avance_palabra_clave('Fenix', 27, 'Mecanica').
+informe_avance_palabra_clave('Fenix', 28, 'Mecanica').
