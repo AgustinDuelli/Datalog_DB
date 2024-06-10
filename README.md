@@ -1,6 +1,9 @@
 # Bases de Datos Deductivas
 Proyecto base para realizar consultas utilizando hechos y reglas mediante el compilador *swipl*. Es necesario descargar previamente [**Swi-Prolog**](https://www.swi-prolog.org/download/stable).
-![image](https://github.com/AgustinDuelli/Datalog_DB/assets/130614935/f1e0d333-7842-4026-ad2f-fa66090397bc)
+
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/AgustinDuelli/Datalog_DB/assets/130614935/f1e0d333-7842-4026-ad2f-fa66090397bc" />
+</p>
 
 ## Inicialización de consola
 - En sistemas operativos Windows, clonar el repositorio y correr el archivo "w_run.bat".
