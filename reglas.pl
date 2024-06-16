@@ -22,7 +22,7 @@ suma_patrocinio(Name, TotalAmount, N) :-
     N1 is N - 1,
     suma_patrocinio(Name, SubTotalAmount, N1),
     TotalAmount is SubTotalAmount + Amount.
-% Skip IDs that do not match the given name and continue the recursion
+% Omite los ids que no corresponden al nombre del proyecto.
 suma_patrocinio(Name, TotalAmount, N) :-
     N > 0,
     \+ patrocinio(N,_,_,_, Name),
