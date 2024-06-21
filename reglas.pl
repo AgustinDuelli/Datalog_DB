@@ -39,7 +39,7 @@ total_suma_patrocinio(Proyecto, Total) :-
     Total > 0.
 
 fondos_superados_inner(Proyecto) :-
-    proyecto(Proyecto, _, _, _, _, _, Presupuesto),
+    proyecto(Proyecto, _, _, _, _, _, Presupuesto, _),
     total_suma_patrocinio(Proyecto, PatrocinioTotal),
     PatrocinioTotal > Presupuesto.
 
@@ -52,9 +52,9 @@ fondos_no_superados(Proyecto):-
 
 % 6. no_un_solo_director/1: Verifica que un director esté en más de un proyecto.
 no_un_solo_director(Director) :-
-    proyecto(Nombre, _, Director, _, _, _, _),
-    proyecto(N2, _, DifDirector, _, _, _, _),
-    Director = DifDirector, Nombre \= N2.
+    proyecto(N, _, Director, _, _, _,_, C),
+    proyecto(N2, _, DifDirector, _, _, _, _, C2),
+    Director = DifDirector, C = C2, N \= N2. 
 % 7. un_solo_director/1: Verifica que ningun director esté en más de un proyecto.
 % Si se manda un director, verifica si está en más de un proyecto o no.
 % Depende de no_un_solo_director/1.
