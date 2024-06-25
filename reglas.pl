@@ -46,7 +46,7 @@ fondos_superados_inner(Proyecto) :-
 %Consulta a realizar para verificar.
 fondos_no_superados(Proyecto):-
     not(fondos_superados_inner(Proyecto)),
-    proyecto(Proyecto, _, _, _, _, _, _).
+    proyecto(Proyecto, _, _, _, _, _, _, _).
 
 
 
